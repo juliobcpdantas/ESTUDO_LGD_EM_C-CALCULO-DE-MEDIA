@@ -9,14 +9,20 @@ int main(int argc, char** argv){ //definição de argumentos, numeros inteiros e
 	float delta;
 	
 	cout<<"Digite o coeficiente a"<<endl; //Descrição do input de variável
-	cin>>a;
+	cin>>a; //substituição do valor da variável para o digitado
 	cout<<"Digite o coeficiente b"<<endl;
 	cin>>b;
 	cout<<"Digite o coeficiente c"<<endl;
 	cin>>c;
 	
-	delta = b*b-4*a*c; //formula de delta
+	delta = b*b-4*a*c; //formulas das variáveis
 	//calculo de raízes
+	x1=(-b+sqrt(delta))/2*a;//formula de raiz quadrada (sqrt) incluida pela biblioteca cmath
+	x2=(-b-sqrt(delta))/2*a;
+	
+	cout<<"x1 = "<<x1<<endl; //apresentação dos resultados
+	cout<<"x2 - "<<x2<<endl;
+	
 	
 }
 
