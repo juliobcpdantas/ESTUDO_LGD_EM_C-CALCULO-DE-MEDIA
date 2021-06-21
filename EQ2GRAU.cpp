@@ -1,9 +1,9 @@
- #include <iostream> 
+#include <iostream> 
 #include <cstdlib>
 #include <cmath> //informe de bibliotecas utilizadas
 using namespace std;
 
-int main(int argc, char** argv){ //definição de argumentos, numeros inteiros e uso de caractéres
+int main(void) { //definição de argumentos
 	float x1,x2; //declaração de variáveis flutuantes
 	float a,b,c;
 	float delta;
@@ -22,7 +22,7 @@ int main(int argc, char** argv){ //definição de argumentos, numeros inteiros e
 	
 	cout<<"x1 = "<<x1<<endl; //apresentação dos resultados
 	cout<<"x2 = "<<x2<<endl;
-	
+	return 0;
 	
 }
 
