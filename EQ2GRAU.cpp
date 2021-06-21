@@ -8,6 +8,16 @@ int main(int argc, char** argv){ //definição de argumentos, numeros inteiros e
 	float a,b,c;
 	float delta;
 	
+	cout<<"Digite o coeficiente a"<<endl; //Descrição do input de variável
+	cin>>a;
+	cout<<"Digite o coeficiente b"<<endl;
+	cin>>b;
+	cout<<"Digite o coeficiente c"<<endl;
+	cin>>c;
+	
+	delta = b*b-4*a*c; //formula de delta
+	//calculo de raízes
+	
 }
 
 
