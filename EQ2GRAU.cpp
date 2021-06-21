@@ -21,7 +21,7 @@ int main(int argc, char** argv){ //definição de argumentos, numeros inteiros e
 	x2=(-b-sqrt(delta))/2*a;
 	
 	cout<<"x1 = "<<x1<<endl; //apresentação dos resultados
-	cout<<"x2 - "<<x2<<endl;
+	cout<<"x2 = "<<x2<<endl;
 	
 	
 }
