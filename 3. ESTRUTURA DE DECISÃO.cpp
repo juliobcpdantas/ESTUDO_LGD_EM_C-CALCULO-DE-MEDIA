@@ -13,8 +13,12 @@ cin>>nota2;
 media = (nota1+nota2)/2;
 
 if(media>=6){                                                      //teste de avaliação da variável media
-cout<<"Aprovado"<<endl;                                            //inicio das saídas dos dados, resultados e portanto o final do programa
+cout<<"Media = "<<media<<" - Aprovado"<<endl;                                            //inicio das saídas dos dados, resultados e portanto o final do programa
 }
+else {
+  cout<<"Media = "<<media<<" - Reprovado"<<endl;
+}
+ 
 cout<<"Excute novamente para calcular outra media"<<endl;           
 return 0;
 }
