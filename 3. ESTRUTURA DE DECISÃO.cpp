@@ -1,4 +1,4 @@
-#include <ionstream>
+#include <iostream>
 using namespace std;                                               //uso de biblioteca para funcionamento do comando cin e cout 
 
 int main(int argc, char** argv) {                                  //linha que indica o iniciador do programa principal 
