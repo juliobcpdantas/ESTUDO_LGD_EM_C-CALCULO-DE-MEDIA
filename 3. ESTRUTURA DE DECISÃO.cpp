@@ -12,7 +12,7 @@ cout<<"digite a segunda nota:"<<endl;
 cin>>nota2;
 media = (nota1+nota2)/2;
 
-(media>=6)? count<<"Media = "<<media<<" - Aprovado"<<endl:cout<<"Media = "<<media<<" - Reprovado"<<endl;       //tentativa de substituir o teste logico com operador ternario
+(media>=6)? cout<<"Media = "<<media<<" - Aprovado"<<endl:cout<<"Media = "<<media<<" - Reprovado"<<endl;       //tentativa de substituir o teste logico com operador ternario
 cout<<"Excute novamente para calcular outra media"<<endl;     
          
 return 0;
