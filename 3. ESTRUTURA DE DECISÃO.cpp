@@ -12,13 +12,8 @@ cout<<"digite a segunda nota:"<<endl;
 cin>>nota2;
 media = (nota1+nota2)/2;
 
-if(media>=6){                                                      //teste de avaliação da variável media
-cout<<"Media = "<<media<<" - Aprovado"<<endl;                                            //inicio das saídas dos dados, resultados e portanto o final do programa
-}
-else {
-  cout<<"Media = "<<media<<" - Reprovado"<<endl;
-}
- 
-cout<<"Excute novamente para calcular outra media"<<endl;           
+(media>=6)? cout<<"Media = "<<media<<" - Aprovado"<<endl:cout<<"Media = "<<media<<" - Reprovado"<<endl;       //tentativa de substituir o teste logico com operador ternario
+cout<<"Excute novamente para calcular outra media"<<endl;     
+         
 return 0;
 }
